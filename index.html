@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MayaMind — Your Ally at Home</title>
+  <meta name="description" content="MayaMind is an AI-powered companion, exercise coach, and wellness platform for seniors. Meet Maya — your emotionally aware ally who helps you stay active, connected, and engaged.">
+  <meta name="keywords" content="senior companion, AI wellness, exercise coach, elderly care, retirement technology, MayaMind">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="MayaMind — Your Ally at Home">
+  <meta property="og:description" content="AI-powered companion, exercise coach, and wellness platform for seniors.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mayamind.ai">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS for carousels -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-maya">Maya</span><span class="logo-mind">Mind</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#maya">Meet Maya</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#family">Family &amp; Friends</a></li>
+        <li><a href="#communities">Communities</a></li>
+        <li><a href="#waitlist" class="nav-cta">Join the Waitlist</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-bg-image ken-burns"></div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-title animate-in">
+        Meet <span class="text-orange">Maya</span>.<br>
+        Your Companion.<br>
+        Your Coach.<br>
+        Your <span class="text-orange">Ally</span>.
+      </h1>
+      <p class="hero-subtitle animate-in delay-1">
+        MayaMind brings AI-powered companionship, exercise coaching, and health monitoring to seniors — all through a single app.
+      </p>
+      <div class="hero-ctas animate-in delay-2">
+        <a href="#waitlist" class="btn btn-primary">Join the Waitlist</a>
+        <a href="#maya" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="hero-stats animate-in delay-3">
+        <div class="stat">
+          <span class="stat-number" data-target="33">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">of seniors feel lonely</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="72">0</span><span class="stat-suffix">%</span>
+          <span class="stat-label">don't exercise enough</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="1">0</span>
+          <span class="stat-label">app to change it all</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ============ MEET MAYA ============ -->
+  <section class="section section-maya" id="maya">
+    <div class="container">
+      <div class="section-grid two-col">
+        <div class="section-text animate-in">
+          <span class="section-tag">Meet Your Ally</span>
+          <h2>Maya is more than an app.<br>She's a <span class="text-orange">companion</span>.</h2>
+          <p>Maya is an emotionally aware AI avatar who talks with you, learns about you, and adapts to your mood. She remembers your stories, your family, your preferences — and brings that knowledge into every conversation.</p>
+          <p>Feeling happy? Maya matches your energy. Feeling down? She responds with warmth and empathy. Over time, she becomes a trusted companion who truly understands you.</p>
+          <ul class="feature-list">
+            <li>
+              <span class="feature-icon">&#x1f5e3;</span>
+              <span>Natural, flowing conversation — spoken or typed</span>
+            </li>
+            <li>
+              <span class="feature-icon">&#x1f9e0;</span>
+              <span>Learns your personality, preferences, and family dynamics</span>
+            </li>
+            <li>
+              <span class="feature-icon">&#x1f60a;</span>
+              <span>Detects your emotional state and adapts in real-time</span>
+            </li>
+            <li>
+              <span class="feature-icon">&#x1f512;</span>
+              <span>Personality learning is opt-in — you're always in control</span>
+            </li>
+          </ul>
+        </div>
+        <div class="section-visual animate-in delay-1">
+          <div class="phone-mockup">
+            <div class="phone-frame">
+              <img src="images/maya-chat-placeholder.jpg" alt="Maya AI companion conversation" class="phone-screen">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES ============ -->
+  <section class="section section-features" id="features">
+    <div class="container">
+      <div class="section-header animate-in">
+        <span class="section-tag">What Maya Can Do</span>
+        <h2>Six powerful capabilities.<br><span class="text-orange">One extraordinary app.</span></h2>
+      </div>
+
+      <div class="features-carousel">
+        <div class="swiper features-swiper">
+          <div class="swiper-wrapper">
+
+            <!-- Feature 1: Companion -->
+            <div class="swiper-slide">
+              <div class="feature-card">
+                <div class="feature-card-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M24 14C20.69 14 18 16.69 18 20C18 23.31 20.69 26 24 26C27.31 26 30 23.31 30 20C30 16.69 27.31 14 24 14ZM24 34C19.58 34 14 36.21 14 38V40H34V38C34 36.21 28.42 34 24 34Z" fill="#FF9E1B"/>
+                  </svg>
+                </div>
+                <h3>Intelligent Companion</h3>
+                <p>Maya engages in deep, meaningful conversations. She remembers your life stories, knows your family by name, and brings that context into every interaction. The more you talk, the richer the connection.</p>
+                <div class="feature-card-image">
+                  <img src="images/feature-companion-placeholder.jpg" alt="Maya companion conversation">
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 2: Exercise Coach -->
+            <div class="swiper-slide">
+              <div class="feature-card">
+                <div class="feature-card-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M24 16L20 28H28L24 16ZM14 34H34M18 30H30" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <h3>Exercise Coach</h3>
+                <p>Using your iPhone's front camera, Maya watches you exercise in real-time. She counts your reps, assesses your form, scores your performance, and guides you through a library of 20+ senior-friendly exercises.</p>
+                <div class="feature-card-image">
+                  <img src="images/feature-exercise-placeholder.jpg" alt="Maya exercise coaching">
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 3: Health Monitoring -->
+            <div class="swiper-slide">
+              <div class="feature-card">
+                <div class="feature-card-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M16 24H20L22 18L26 30L28 24H32" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <h3>Health Monitoring</h3>
+                <p>Connect your Apple Watch and a smart scale — Maya automatically tracks heart rate, SpO2, steps, sleep, weight, body fat, BMI and more. No manual input. Just wear your watch and step on the scale.</p>
+                <div class="feature-card-image">
+                  <img src="images/feature-health-placeholder.jpg" alt="Maya health monitoring">
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 4: WhatsApp -->
+            <div class="swiper-slide">
+              <div class="feature-card">
+                <div class="feature-card-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M16 18H32V30C32 31.1 31.1 32 30 32H18C16.9 32 16 31.1 16 30V18ZM20 18V16C20 14.9 20.9 14 22 14H26C27.1 14 28 14.9 28 16V18" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <h3>Stay Connected</h3>
+                <p>Tell Maya to send a WhatsApp message — add a selfie, a photo, or emojis. Your contacts can reply directly. Stay close to the people who matter most, without the friction of navigating a phone.</p>
+                <div class="feature-card-image">
+                  <img src="images/feature-connect-placeholder.jpg" alt="Maya WhatsApp messaging">
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 5: To Dos -->
+            <div class="swiper-slide">
+              <div class="feature-card">
+                <div class="feature-card-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M18 20L22 24L30 16M16 28H32M16 32H28" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <h3>Daily Management</h3>
+                <p>Appointments, tasks, and medication reminders — Maya keeps track of it all. She'll read back your day's schedule, remind you of your medications, and your designated family and friends can add to-dos too.</p>
+                <div class="feature-card-image">
+                  <img src="images/feature-todos-placeholder.jpg" alt="Maya to-do management">
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature 6: Emotional Awareness -->
+            <div class="swiper-slide">
+              <div class="feature-card">
+                <div class="feature-card-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M24 34C29.5228 34 34 29.5228 34 24C34 18.4772 29.5228 14 24 14C18.4772 14 14 18.4772 14 24C14 29.5228 18.4772 34 24 34Z" stroke="#FF9E1B" stroke-width="2"/>
+                    <path d="M20 22V22M28 22V22" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M20 28C21.3333 29.3333 26.6667 29.3333 28 28" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+                <h3>Emotionally Aware</h3>
+                <p>Maya senses how you're feeling from the way you speak and what you say. She adapts her tone, her expressions, and her responses — creating a bond that deepens naturally over time.</p>
+                <div class="feature-card-image">
+                  <img src="images/feature-emotion-placeholder.jpg" alt="Maya emotional awareness">
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PARALLAX BREAK ============ -->
+  <section class="parallax-break">
+    <div class="parallax-bg ken-burns-alt"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content animate-in">
+      <blockquote>
+        "MayaMind isn't just technology. It's a <span class="text-orange">relationship</span>."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section section-how" id="how-it-works">
+    <div class="container">
+      <div class="section-header animate-in">
+        <span class="section-tag">Getting Started</span>
+        <h2>Three simple steps to a<br><span class="text-orange">richer, more connected life</span>.</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step animate-in">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Download the App</h3>
+            <p>Get MayaMind from the App Store. Create your account in under two minutes — Maya will walk you through everything.</p>
+          </div>
+          <div class="step-visual">
+            <img src="images/step-download-placeholder.jpg" alt="Download MayaMind">
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step animate-in delay-1">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Meet Maya</h3>
+            <p>Start a conversation. Tell Maya about yourself — your interests, your family, what matters to you. She'll remember everything.</p>
+          </div>
+          <div class="step-visual">
+            <img src="images/step-meet-placeholder.jpg" alt="Meet Maya">
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step animate-in delay-2">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Live Better, Together</h3>
+            <p>Exercise with Maya's coaching. Monitor your health. Stay connected to loved ones. Maya grows with you — every single day.</p>
+          </div>
+          <div class="step-visual">
+            <img src="images/step-live-placeholder.jpg" alt="Live better with MayaMind">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAMILY & FRIENDS ============ -->
+  <section class="section section-family" id="family">
+    <div class="container">
+      <div class="section-grid two-col reverse">
+        <div class="section-visual animate-in">
+          <div class="image-stack">
+            <img src="images/family-placeholder-1.jpg" alt="Family staying connected" class="stack-img stack-1">
+            <img src="images/family-placeholder-2.jpg" alt="Seniors with family" class="stack-img stack-2">
+          </div>
+        </div>
+        <div class="section-text animate-in delay-1">
+          <span class="section-tag">For Family &amp; Friends</span>
+          <h2>Stay connected.<br><span class="text-orange">Without being intrusive.</span></h2>
+          <p>As a designated and trusted family member or friend, you can stay informed about your loved one's well-being — but only with their explicit permission.</p>
+          <div class="access-cards">
+            <div class="access-card">
+              <span class="access-icon">&#x1f3cb;</span>
+              <div>
+                <strong>Exercise Activity</strong>
+                <p>See workout history, scores, and progress trends.</p>
+              </div>
+            </div>
+            <div class="access-card">
+              <span class="access-icon">&#x2764;</span>
+              <div>
+                <strong>Health Metrics</strong>
+                <p>Heart rate, SpO2, weight, sleep — at a glance.</p>
+              </div>
+            </div>
+            <div class="access-card">
+              <span class="access-icon">&#x1f4ac;</span>
+              <div>
+                <strong>Messages</strong>
+                <p>Exchange WhatsApp messages easily and naturally.</p>
+              </div>
+            </div>
+            <div class="access-card">
+              <span class="access-icon">&#x2705;</span>
+              <div>
+                <strong>To Dos</strong>
+                <p>Add appointments or reminders on their behalf.</p>
+              </div>
+            </div>
+          </div>
+          <p class="privacy-note">Every access category is opt-in. Your loved one decides exactly what to share — and can change their mind at any time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMMUNITIES ============ -->
+  <section class="section section-communities" id="communities">
+    <div class="container">
+      <div class="section-header animate-in">
+        <span class="section-tag">For Retirement Communities</span>
+        <h2>Elevate the experience for<br><span class="text-orange">every resident</span>.</h2>
+      </div>
+      <div class="section-grid three-col">
+        <div class="community-card animate-in">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/><path d="M16 20H32V34H16V20ZM20 20V16C20 14 22 12 24 12C26 12 28 14 28 16V20" stroke="#FF9E1B" stroke-width="2"/></svg>
+          </div>
+          <h3>Resident Wellness</h3>
+          <p>Reduce loneliness and boost physical activity across your community. Measurable outcomes for every resident.</p>
+        </div>
+        <div class="community-card animate-in delay-1">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/><path d="M14 34L24 14L34 34H14ZM24 28V22M24 32V30" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Professional Access</h3>
+          <p>Trainers, physiotherapists, and wellness specialists get authorized access to exercise data and health metrics for their clients.</p>
+        </div>
+        <div class="community-card animate-in delay-2">
+          <div class="community-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#FF9E1B" stroke-width="2"/><path d="M16 20H32M16 24H28M16 28H32M16 32H24" stroke="#FF9E1B" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Reporting &amp; Insights</h3>
+          <p>Track engagement, exercise adherence, and wellness outcomes. Demonstrate impact to families and stakeholders.</p>
+        </div>
+      </div>
+      <div class="community-cta animate-in">
+        <a href="mailto:communities@mayamind.ai" class="btn btn-primary">Partner With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WAITLIST ============ -->
+  <section class="section section-waitlist" id="waitlist">
+    <div class="waitlist-bg">
+      <div class="waitlist-bg-image ken-burns-slow"></div>
+      <div class="waitlist-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="waitlist-content">
+        <div class="section-header animate-in">
+          <span class="section-tag">Be Among the First</span>
+          <h2>Join the <span class="text-orange">MayaMind</span> waitlist.</h2>
+          <p class="waitlist-subtitle">We're preparing for our first trial. Join the waitlist and we'll reach out when it's your turn.</p>
+        </div>
+
+        <form class="waitlist-form animate-in delay-1" id="waitlistForm">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label>What interests you most about MayaMind?</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="interest" value="companion" required>
+                <span class="radio-custom"></span>
+                <span>Having a daily companion to talk to</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="interest" value="exercise">
+                <span class="radio-custom"></span>
+                <span>Guided exercise coaching at home</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="interest" value="health">
+                <span class="radio-custom"></span>
+                <span>Health monitoring with Apple Watch</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="interest" value="family">
+                <span class="radio-custom"></span>
+                <span>Keeping my loved one connected and active</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="interest" value="other">
+                <span class="radio-custom"></span>
+                <span>Other</span>
+              </label>
+            </div>
+            <div class="other-input" id="otherInput" style="display: none;">
+              <input type="text" name="other_reason" id="otherReason" placeholder="Tell us what interests you...">
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span class="btn-text">Join the Waitlist</span>
+            <span class="btn-loading" style="display: none;">
+              <span class="spinner"></span> Submitting...
+            </span>
+          </button>
+        </form>
+
+        <!-- Success message -->
+        <div class="waitlist-success" id="waitlistSuccess" style="display: none;">
+          <div class="success-icon">&#x2709;</div>
+          <h3>Check your email!</h3>
+          <p>We've sent a confirmation link to <strong id="confirmEmail"></strong>. Please click the link to confirm your spot on the waitlist.</p>
+        </div>
+
+        <!-- Confirmed message -->
+        <div class="waitlist-confirmed" id="waitlistConfirmed" style="display: none;">
+          <div class="success-icon">&#x2705;</div>
+          <h3>You're on the list!</h3>
+          <p>Thank you for confirming. Someone from MayaMind will be in touch shortly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-maya">Maya</span><span class="logo-mind">Mind</span>
+          </a>
+          <p>Your Ally at Home.</p>
+          <p class="footer-tagline">AI-powered companionship, exercise coaching, and wellness for seniors.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#maya">Meet Maya</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#waitlist">Join the Waitlist</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>For</h4>
+          <ul>
+            <li><a href="#maya">Seniors &amp; Retirees</a></li>
+            <li><a href="#family">Family &amp; Friends</a></li>
+            <li><a href="#communities">Retirement Communities</a></li>
+            <li><a href="#communities">Wellness Professionals</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@mayamind.ai">hello@mayamind.ai</a></li>
+            <li><a href="mailto:communities@mayamind.ai">communities@mayamind.ai</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 MayaMind LLC. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
