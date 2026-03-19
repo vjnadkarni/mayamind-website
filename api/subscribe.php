@@ -115,7 +115,7 @@ $htmlBody = '
   <div style="max-width:560px; margin:0 auto; padding:40px 24px;">
     <div style="text-align:center; margin-bottom:32px;">
       <span style="font-size:28px; font-weight:800;">
-        <span style="color:#FF9E1B;">Maya</span><span style="color:#FFF;">Mind</span>
+        <span style="color:#E87722;">Maya</span><span style="color:#FFF;">Mind</span>
       </span>
     </div>
     <div style="background:#111; border:1px solid #333; border-radius:16px; padding:40px 32px; text-align:center;">
@@ -124,7 +124,7 @@ $htmlBody = '
         Thank you for your interest in MayaMind. Please confirm your email address to secure your spot.
       </p>
       <a href="' . $confirmUrl . '"
-         style="display:inline-block; background:#FF9E1B; color:#000; padding:16px 40px;
+         style="display:inline-block; background:#E87722; color:#000; padding:16px 40px;
                 border-radius:50px; font-size:16px; font-weight:700; text-decoration:none;">
         Confirm My Email
       </a>
@@ -133,7 +133,7 @@ $htmlBody = '
       </p>
     </div>
     <p style="color:#555; font-size:12px; text-align:center; margin-top:24px;">
-      &copy; 2026 MayaMind LLC. All rights reserved.
+      &copy; 2026 MayaMind. All rights reserved.
     </p>
   </div>
 </body>

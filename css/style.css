@@ -1,15 +1,15 @@
 /* ============================================
    MayaMind Website — Style Sheet
-   Color: Orange #FF9E1B / White / Black
+   Color: Orange #E87722 / White / Black
    ============================================ */
 
 /* ---------- CSS Variables ---------- */
 :root {
-  --orange: #FF9E1B;
-  --orange-dark: #E88A00;
-  --orange-light: #FFB84D;
-  --orange-glow: rgba(255, 158, 27, 0.3);
-  --orange-subtle: rgba(255, 158, 27, 0.08);
+  --orange: #E87722;
+  --orange-dark: #C96210;
+  --orange-light: #F09548;
+  --orange-glow: rgba(232, 119, 34, 0.3);
+  --orange-subtle: rgba(232, 119, 34, 0.08);
   --black: #000000;
   --black-soft: #0A0A0A;
   --black-card: #111111;
