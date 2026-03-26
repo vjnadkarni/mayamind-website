@@ -163,7 +163,7 @@ a:hover {
 }
 
 .nav-logo-img {
-  height: 40px;
+  height: 44px;
   width: auto;
 }
 
@@ -180,7 +180,7 @@ a:hover {
 
 .nav-links a {
   color: var(--white-soft);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   transition: color var(--transition-fast);
   text-decoration: none;
