@@ -15,9 +15,9 @@ if (empty($token) || !preg_match('/^[a-f0-9]{64}$/', $token)) {
     <body style="background:#000;color:#fff;font-family:Arial,sans-serif;display:flex;
     align-items:center;justify-content:center;min-height:100vh;margin:0;">
     <div style="text-align:center;padding:40px;">
-    <h1 style="color:#FC4001;">Invalid Link</h1>
+    <h1 style="color:#E87722;">Invalid Link</h1>
     <p>This confirmation link is invalid or has expired.</p>
-    <a href="/" style="color:#FC4001;">Return to MayaMind</a>
+    <a href="/" style="color:#E87722;">Return to MayaMind</a>
     </div></body></html>';
     exit;
 }
@@ -30,9 +30,9 @@ if (!file_exists($dataFile)) {
     <body style="background:#000;color:#fff;font-family:Arial,sans-serif;display:flex;
     align-items:center;justify-content:center;min-height:100vh;margin:0;">
     <div style="text-align:center;padding:40px;">
-    <h1 style="color:#FC4001;">Not Found</h1>
+    <h1 style="color:#E87722;">Not Found</h1>
     <p>No waitlist data found.</p>
-    <a href="/" style="color:#FC4001;">Return to MayaMind</a>
+    <a href="/" style="color:#E87722;">Return to MayaMind</a>
     </div></body></html>';
     exit;
 }
@@ -61,9 +61,9 @@ if (!$found) {
     <body style="background:#000;color:#fff;font-family:Arial,sans-serif;display:flex;
     align-items:center;justify-content:center;min-height:100vh;margin:0;">
     <div style="text-align:center;padding:40px;">
-    <h1 style="color:#FC4001;">Link Not Found</h1>
+    <h1 style="color:#E87722;">Link Not Found</h1>
     <p>This confirmation link was not found. It may have already been used.</p>
-    <a href="/" style="color:#FC4001;">Return to MayaMind</a>
+    <a href="/" style="color:#E87722;">Return to MayaMind</a>
     </div></body></html>';
     exit;
 }
