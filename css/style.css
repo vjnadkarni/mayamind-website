@@ -163,8 +163,12 @@ a:hover {
 }
 
 .nav-logo-img {
-  height: 20px;
+  height: 32px;
   width: auto;
+}
+
+.footer-brand .nav-logo-img {
+  height: 24px;
 }
 
 .nav-links {
